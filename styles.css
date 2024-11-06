@@ -11,6 +11,39 @@ body {
     min-height: 100vh;
 }
 
+.banjarbaru {
+    padding: 20px;
+    background-color: #828282;
+}
+
+.image-banjarbaru {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    border: #222 solid 5px;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.tentang {
+    padding: 20px;
+    background-color: #828282;
+}
+
+.title {
+    background-color: #e30016;
+    color: #f4f4f4;
+    padding: 10px;
+    font-size: 15px;
+    border: #222 solid 5px;
+    text-align: center;
+}
+
 header, main {
     display: flex;
     justify-content: space-between;
@@ -19,7 +52,8 @@ header, main {
 }
 
 main {
-    background-color: #f7c03a;
+    background-color: #828282;
+    display: flex;
 }
 
 .image {
@@ -42,15 +76,17 @@ nav a {
 }
 
 nav a:hover {
-    color: #f7c03a;
+    color: #e30016;
     transition: all 0.3s ease-in-out;
 }
 
 footer {
     background-color: #222;
     color: white;
-    text-align: center;
+    text-align: end;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 main {
@@ -59,9 +95,14 @@ main {
     padding: 20px;
 }
 
+main h3 {
+    font-size: 15px;
+}
+
 article {
     flex: 3;
     padding: 20px;
+    border: #222 solid 5px;
     background-color: #f4f4f4;
     margin-right: 20px;
 }
@@ -76,6 +117,7 @@ article {
 aside {
     flex: 1;
     padding: 20px;
+    border: #222 solid 5px;
     background-color: #f4f4f4;
 }
 
